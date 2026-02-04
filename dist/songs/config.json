@@ -1,6 +1,12 @@
 {
     "songs": [
         {
+            "id": "7",
+            "author": "Lie to me",
+            "name": "Opening",
+            "duration": 30000
+        },
+        {
             "id": "4",
             "author": "Lorde",
             "name": "Yellow Flicker Beat",
