@@ -209,8 +209,10 @@ export default {
     },
     triggerUserPicInput() {
       imageSelectionProcess = true
-      this.$refs.userPicInput.click()
 
+      setTimeout(()=>{
+        this.$refs.userPicInput.click()
+      }, 300)
     },
     switchScene(scene) {
       return new Promise((resolve, reject) => {
@@ -338,7 +340,7 @@ export default {
 
 window.addEventListener('focus', () => {
   if (!imageSelectionProcess) {
-    window.location.reload();
+   window.location.reload();
   }
 })
 
@@ -456,7 +458,7 @@ input[type="text"]:focus {
 }
 
 .scene.menu-scene {
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -617,6 +619,7 @@ span.result {
   right: 0;
   top: 0;
   width: 100%;
+  height:100%;
   z-index: 1;
 }
 
