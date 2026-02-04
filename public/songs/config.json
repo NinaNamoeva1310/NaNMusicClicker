@@ -1,0 +1,46 @@
+{
+    "songs": [
+        {
+            "id": "7",
+            "author": "Lie to me",
+            "name": "Opening",
+            "duration": 30000
+        },
+        {
+            "id": "4",
+            "author": "Lorde",
+            "name": "Yellow Flicker Beat",
+            "duration": 232000
+        },
+        {
+            "id": "2",
+            "author": "Sleep Token",
+            "name": "Atlantic",
+            "duration": 297000
+        },
+        {
+            "id": "1",
+            "author": "Bad Omens",
+            "name": "The death<br> of peace of mind",
+            "duration": 241000
+        },
+        {
+            "id": "3",
+            "author": "Lorde",
+            "name": "Buzzcut Season",
+            "duration": 246000
+        },
+        {
+            "id": "0",
+            "author": "The Weeknd",
+            "name": "Blinding Lights",
+            "duration": 269000
+        },
+        {
+            "id": "5",
+            "author": "Винтаж",
+            "name": "Ева",
+            "duration": 256000
+        }
+    ]
+}
